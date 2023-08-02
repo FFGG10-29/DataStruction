@@ -25,8 +25,8 @@ bool Del_Min(SqList& L, ElemType& value) {
 }
 
 int main(void) {
-    int length = 6;                // 定义顺序表的初始长度为 6
-    SqList L = {1, 2, 3, 4, 5, 6}; // 创建一个长度为 6 的顺序表，并初始化元素
+    int length = 88;                // 定义顺序表的初始长度为 6
+    SqList L = {1, 2, 3, 4, 5, 6,7,8,9,10,12,54}; // 创建一个长度为 6 的顺序表，并初始化元素
     ElemType value; // 定义一个变量，用于保存被删除的最小值
     if (Del_Min(L, value)) // 删除顺序表中的最小值
         printf("The minimum value %d has been deleted.\n",
